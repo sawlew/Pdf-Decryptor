@@ -1,0 +1,68 @@
+.app {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: system-ui, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 20px 0;
+}
+
+input[type="file"],
+input[type="password"],
+button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  background: #0066ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.status {
+  color: green;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.download-btn {
+  display: inline-block;
+  background: #28a745;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.download-btn:hover {
+  background: #218838;
+}
